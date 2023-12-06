@@ -10,7 +10,7 @@ public class Condidat {
     @GeneratedValue
     private int id;
 
-    private String nom, prenom, email;
+    public   String nom, prenom, email;
 
     public Condidat() {
     }

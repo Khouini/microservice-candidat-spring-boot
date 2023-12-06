@@ -10,4 +10,5 @@ import org.springframework.stereotype.Repository;
 
 @Repository
 public interface CondidatRepository extends JpaRepository<Condidat, Integer> {
-    public Page<Condidat> getCondidatsByNom(@Param("name") String n, Pageable pageable);}
+    public Page<Condidat> getCondidatsByNom(@Param("name") String n, Pageable pageable);
+}

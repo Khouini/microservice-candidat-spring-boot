@@ -15,7 +15,7 @@ public class MicroserviceAtelier1Application {
 		SpringApplication.run(MicroserviceAtelier1Application.class, args);
 	}
 
-	@Autowired
+	/*@Autowired
 	private CondidatRepository condidatRepository;
 
 	@Bean
@@ -33,7 +33,7 @@ public class MicroserviceAtelier1Application {
 			System.out.println(condidatRepository.findAll());
 		};
 
-	}
+	}*/
 
 
 }
